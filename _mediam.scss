@@ -1,0 +1,63 @@
+    .mediam{
+
+        margin-top: 5px;
+    }
+    h2{
+        text-align: center;
+    color: brown;
+    }
+
+    
+.img11{
+    display: flex;
+     justify-content: space-around;
+    img{
+        border-radius: 50%;
+         
+    }    
+    
+    
+}
+.carts{
+    width: 30%;
+    border-radius: 2opx;
+}
+.cart1{
+    width: 100%;
+    
+    
+    
+}
+@mixin demo{color: brown;}
+                           
+.head2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .h5{
+        border: 2px solid rgb(235, 231, 231);
+        h3{
+            @include demo;
+        }
+    }
+}
+.head4{
+    display: flex;
+    justify-content: space-around;
+    gap:5px;
+    margin-bottom: 30px;
+}
+.head3{
+    border: 2px solid gray;
+    h3{
+        @include demo;
+    }
+   
+}
+@mixin blog{color: blue;}
+.head3{
+    p{
+        @include blog;
+    }
+}

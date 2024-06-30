@@ -1,0 +1,128 @@
+.head {
+  background-color: brown;
+  height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+  color: white;
+  padding-top: 2px;
+}
+
+.navbar {
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  border: 0px solid rgb(243, 238, 238);
+}
+.navbar div {
+  width: 60%;
+  border: 0px solid rgb(255, 246, 246);
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(251, 251, 255);
+  border-radius: 1px;
+}
+.navbar div input {
+  background: transparent;
+  border: 0px;
+  outline: 0px;
+  width: 95%;
+}
+
+.head1 {
+  background-color: burlywood;
+  height: 40px;
+  padding: 5px;
+  margin-top: -2px;
+}
+.head1 ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.mediam {
+  margin-top: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: brown;
+}
+
+.img11 {
+  display: flex;
+  justify-content: space-around;
+}
+.img11 img {
+  border-radius: 50%;
+}
+
+.carts {
+  width: 30%;
+  border-radius: 2opx;
+}
+
+.cart1 {
+  width: 100%;
+}
+
+.head2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.head2 .h5 {
+  border: 2px solid rgb(235, 231, 231);
+}
+.head2 .h5 h3 {
+  color: brown;
+}
+
+.head4 {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.head3 {
+  border: 2px solid gray;
+}
+.head3 h3 {
+  color: brown;
+}
+
+.head3 p {
+  color: blue;
+}
+
+.but {
+  padding-left: 550px;
+}
+
+:hover.but button {
+  background-color: blue;
+  height: 60px;
+  width: 170px;
+}
+
+button {
+  background-color: brown;
+  height: 50px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: darksalmon;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}/*# sourceMappingURL=sweet.css.map */

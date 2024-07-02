@@ -32,28 +32,6 @@
   width: 95%;
 }
 
-.head1 ul {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-  color: white;
-}
-
-.head1 label {
-  display: none;
-}
-.head1 label #check {
-  display: none;
-}
-
-#check:checked ~ .head1 ul {
-  display: block;
-}
-
-.head1 label i {
-  color: white;
-}
-
 .head1 {
   background-color: burlywood;
   height: 40px;
@@ -66,77 +44,18 @@
   gap: 60px;
 }
 
-.mediam {
-  margin-top: 5px;
-}
-
-h2 {
-  text-align: center;
-  color: brown;
-}
-
-.img11 {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-around;
-}
-.img11 img {
-  border-radius: 50%;
-}
-
-.img11 .img1 :hover img {
-  height: 230px;
-}
-
-.carts {
-  width: 30%;
-  border-radius: 2opx;
-  flex-wrap: wrap;
-}
-
-.cart1 {
-  width: 100%;
-}
-
 .head2 {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.head2 .h5 {
-  border: 2px solid rgb(235, 231, 231);
-}
-.head2 .h5 h3 {
-  color: brown;
-}
-
-.head4 {
-  display: flex;
-  justify-content: space-around;
-  gap: 5px;
-  margin-bottom: 30px;
-}
 
 .head3 {
-  border: 2px solid gray;
-}
-.head3 h3 {
-  color: brown;
-}
-
-.head3 p {
-  color: blue;
-}
-
-.but {
-  padding-left: 550px;
-}
-
-:hover.but button {
-  background-color: blue;
-  height: 60px;
-  width: 170px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 button {
@@ -148,9 +67,19 @@ button {
 }
 
 footer {
-  background-color: darksalmon;
+  background-color: rgb(204, 60, 60);
   color: white;
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-}/*# sourceMappingURL=sweet.css.map */
+}
+
+.but {
+  padding-left: 550px;
+}
+
+:hover.but button {
+  background-color: blue;
+  height: 60px;
+  width: 170px;
+}/*# sourceMappingURL=product page.css.map */

@@ -35,7 +35,28 @@
    }
    
 }
+
 }
+.head1 ul{
+   display: flex;
+   list-style: none;
+   gap:30px;
+   color:white
+   
+}
+.head1 label{
+   display: none;
+#check{
+   display: none;
+}
+}
+#check:checked~.head1 ul{
+   display: block;
+}
+.head1 label i{
+   color: white;
+}
+
 .head1{
    background-color: burlywood;
    height: 40px;

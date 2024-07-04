@@ -17,15 +17,9 @@
          
     }    
 }
-.img11{
-   .img1{
-   :hover img{
-        height: 230px;
-        
-    }
-   }
+.img11 img:hover{
+    border: 1px solid;
 }
-
 .carts{
     width: 30%;
     border-radius: 2opx;
@@ -51,6 +45,10 @@
         }
     }
 }
+.head2 img:hover{
+    border: 2px solid;
+    flex-wrap: wrap;
+}
 .head4{
     display: flex;
     justify-content: space-around;
@@ -69,6 +67,9 @@
     p{
         @include blog;
     }
+}
+.head3:hover{
+    border: 2px solid;
 }
 
 

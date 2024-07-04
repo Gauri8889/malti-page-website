@@ -84,8 +84,8 @@ h2 {
   border-radius: 50%;
 }
 
-.img11 .img1 :hover img {
-  height: 230px;
+.img11 img:hover {
+  border: 1px solid;
 }
 
 .carts {
@@ -111,6 +111,10 @@ h2 {
   color: brown;
 }
 
+.head2 img:hover {
+  border: 2px solid;
+}
+
 .head4 {
   display: flex;
   justify-content: space-around;
@@ -127,6 +131,10 @@ h2 {
 
 .head3 p {
   color: blue;
+}
+
+.head3:hover {
+  border: 2px solid;
 }
 
 .but {

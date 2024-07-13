@@ -113,6 +113,7 @@ h2 {
 
 .head2 img:hover {
   border: 2px solid;
+  flex-wrap: wrap;
 }
 
 .head4 {

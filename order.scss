@@ -1,1 +1,67 @@
 
+.order{
+    background-color:rgb(158, 102, 102);
+       height: 800px;
+.order1{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        height: 700px;
+        width: 800px;
+        border-radius: 10px;
+         margin-left: 20%;
+        .order2{
+            background-color: whitesmoke;
+            height: 500px;
+            width: 300px;
+            border-radius: 10px;
+            .order3{
+                background-color: white;
+                height: 70px;
+                width: 30x;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .order4{
+                background-color: white;
+                   display: flex;
+                   justify-content: space-around;
+                   border-radius: 10px;
+                   margin-top: 10px;
+             }
+             .order5{
+                background-color: white;
+                height: 40px;
+                border-radius: 10px;
+                
+             }
+
+        }
+        .order7{
+            display: flex;
+            justify-content: space-around;
+            gap: 50px;
+        
+        }
+        .order8{
+            background-color: pink;
+            text-align: center;
+            margin-top: -10px;
+            width: 100%;
+        }
+        .order9{
+            input{
+                padding: 10px;
+                width: 80%;
+                text-transform: capitalize;
+            }
+            button{
+               padding: 10px;
+               width: 80%;
+               background-color: brown;
+               color: white;
+            }
+        }
+    }
+}
